@@ -76,6 +76,25 @@ void display_postorder(tree* node)
 
 
 }
+
+void display_levelorder(tree* node)
+{ 
+  // using as queue
+  queue<tree*>q;
+  q.push(node);
+  tree* temp;
+  while(!q.empty())
+  {
+    temp=q.front();
+    cout<<temp->data<<" ";
+    q.pop();
+    if(temp->left)
+      q.push(temp->left);
+    if(temp->right)
+      q.push(temp->right);
+  }
+}
+  
 int main() {
 
   tree *head = new tree(1);
@@ -93,5 +112,8 @@ int main() {
   cout << endl;
   cout << "Postorder Traversal:";
   display_postorder(head);
+  cout<<endl;
+  cout << "Levelorder Traversal:";
+  display_levelorder(head);
   return 0;
 }
