@@ -40,6 +40,33 @@ int largest_elem(tree* root)
 return max;
 }
 
+bool search_in_tree(tree* node,int key)
+{  
+    bool id=false;
+    tree* temp;
+    queue<tree*>q;                      //level order traversal method also used for maximum element and also for searching in tree
+    q.push(node);
+    while(!q.empty())
+    {
+      temp=q.front();
+      q.pop();
+      if(key==temp->data)
+      {
+        id=true;
+      }
+      if(temp->left)
+      {
+        q.push(temp->left);
+      }
+      if(temp->right)
+      {
+        q.push(temp->right);
+      }
+    }
+    return id;
+}
+
+
 int main() {
 
   tree *head = new tree(1);
@@ -51,5 +78,11 @@ int main() {
   head->right->right = new tree(7);
   int ans=largest_elem(head);
   cout<<ans;
+  if(search_in_tree(head,7))
+      {
+        cout<<"\nElement found";
+      }
+    else 
+      cout<<"\nElement not found";
 return 0;
 }
