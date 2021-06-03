@@ -15,7 +15,7 @@ class tree{
     }
 
 };
-int largest_elem(tree* root)
+int largest_elem(tree* root)                   //largest element in a BT
 {
     int max_left,max_right,max=INT_MIN;
     if(root!=NULL)
@@ -40,7 +40,7 @@ int largest_elem(tree* root)
 return max;
 }
 
-bool search_in_tree(tree* node,int key)
+bool search_in_tree(tree* node,int key)       //searching element in BT
 {  
     bool id=false;
     tree* temp;
