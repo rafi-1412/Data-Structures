@@ -1,0 +1,43 @@
+pairs_demo
+05 15 25 35 45 
+0 05 1 15 2 25 3 35 4 45 
+vectors_demo
+64321
+0
+5
+2 3 4 6 
+300 400 100 100 
+deque_demo
+11
+22
+stack_demo
+0
+66
+4
+54
+queue_demo
+12
+66
+priority queue_demo
+10 7 5 2 
+set_demo
+2
+012
+multiset_demo
+0
+3
+2
+map_demo
+24 40
+27 80
+33 50
+41 60
+extra stuff_demo
+MAX:555
+3 13
+146
+164
+416
+461
+614
+641
