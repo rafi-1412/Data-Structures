@@ -10,7 +10,7 @@ class node
           
       node(int val)
       {
-        data=val;
+        this->data=val;
         prev=nullptr;
         next=nullptr;
       }
