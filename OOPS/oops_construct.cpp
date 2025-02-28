@@ -14,14 +14,14 @@ class student
       name="Type your name here";
       age=0;
       roll=0;
-  }
+  };
   
   student(string name,int age,unsigned int roll)
   {
       this->name=name;
       this->age=age;
       this->roll=roll;
-  }
+  };
   
     student(string name,int age)
     {

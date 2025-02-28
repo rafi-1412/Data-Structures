@@ -13,6 +13,12 @@ void display(string sort_name,int* arr,int n)
     }
 }
 
+void merge_sort(int* arr,int n)
+{
+    
+}
+
+
 void insertion_sort(int* arr, int n)
 {
     int key,j;

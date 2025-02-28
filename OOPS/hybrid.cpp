@@ -72,6 +72,7 @@ int main()
     boy b1;
     b1.student_display();
     b1.print_male();
+    
 
     return 0;
 }
