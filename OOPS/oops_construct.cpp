@@ -21,7 +21,7 @@ class student
       this->name=name;
       this->age=age;
       this->roll=roll;
-  };
+  }
   
     student(string name,int age)
     {
