@@ -1,0 +1,71 @@
+🔹 Arrays & Strings
+1. Kadane’s Algorithm (Max Subarray Sum)
+2. Sliding Window
+3. Two Pointers
+4. Prefix Sum
+5. Merge Intervals
+5. String search (KMP or Z algorithm)
+
+🔹 Linked Lists
+1. Floyd’s Cycle Detection (also known as Tortoise and Hare Algorithm)
+2. Merge Two Sorted Lists
+3. Reverse Linked List (Iterative & Recursive)
+4. Remove Nth Node from End
+
+🔹 Stacks & Queues
+1. Monotonic Stack (Next Greater/Smaller Element)
+2. Min Stack / Max Stack
+3. Sliding Window Maximum (Deque Technique)
+4. Balanced Parentheses Check
+
+🔹 Recursion & Backtracking
+1. Subset Sum Problem
+2. N-Queens Problem
+3. Sudoku Solver
+4. Rat in a Maze
+5. Word Search (Backtracking)
+
+🔹 Binary Trees & BST
+1. Inorder, Preorder, Postorder Traversal
+2. BFS & DFS
+3. Morris Traversal (Inorder without recursion/stack)
+4. Lowest Common Ancestor (LCA)
+5. Diameter of a Binary Tree
+6. Validate BST
+
+🔹 Dynamic Programming (DP)
+1. Fibonacci Series (Memoization & Tabulation)
+2. 0/1 Knapsack Problem
+3. Longest Common Subsequence (LCS)
+4. Longest Increasing Subsequence (LIS)
+5. Coin Change Problem
+6. Matrix Chain Multiplication
+
+🔹 Greedy Algorithms
+1. Kruskal’s Algorithm (Minimum Spanning Tree)
+2. Prim’s Algorithm (Minimum Spanning Tree)
+3. Activity Selection
+4. Fractional Knapsack
+5. Job Scheduling
+
+🔹 Graph Algorithms
+1. BFS & DFS (a lot of really cool graph problems are just on this)
+2. Dijkstra’s Algorithm (Shortest Path)
+3. Bellman-Ford Algorithm (Shortest Path)
+4. Floyd-Warshall Algorithm (All-Pairs Shortest Path)
+5. Topological Sort
+6. Kahn’s Algorithm (Topological Sort using BFS)
+7. Union-Find (Disjoint Set)
+
+🔹 Bit Manipulation
+1. XOR Tricks
+2. Check if Power of 2
+3. Bitmasking
+4. Fast Exponentiation using Bitwise
+
+🔹 Mathematical Algorithms
+1. Euclidean Algorithm (GCD)
+2. Extended Euclidean Algorithm
+3. Sieve of Eratosthenes (Prime Numbers)
+4. Modular Exponentiation
+5. Fast Power Algorithm
