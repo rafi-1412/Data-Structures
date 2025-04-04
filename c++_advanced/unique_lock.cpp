@@ -8,7 +8,7 @@
 //     e. condition variables. (See this in coming videos)
 
 // Locking Strategies
-//    TYPE           EFFECTS(S)
+//    TYPE  EFFECTS(S)
 // 1. defer_lock  do not acquire ownership of the mutex.
 // 2. try_to_lock  try to acquire ownership of the mutex without blocking.
 // 3. adopt_lock  assume the calling thread already has ownership of the mutex.

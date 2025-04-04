@@ -53,7 +53,7 @@ int main()
 
     auto starttime = high_resolution_clock::now();
 
-    std::thread t1(findEven,start,end);
+    std::thread t1(findEven,start,end);     //Function pointer
     std::thread t2(findOdd,start,end);
 
     t1.join();
